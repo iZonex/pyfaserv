@@ -20,10 +20,9 @@ do
         Nginx)
            sudo apt-get install nginx-full nginx uwsgi uwsgi-plugin-python
         Python)
-           sudo apt-get install python python-setuptools python-dev
+           sudo apt-get install python python-setuptools python-dev virtualenv virtualenvwrapper
            sudo apt-get install python-pip 
            sudo apt-get install sqlite3
-           sudo pip install virtualenv virtualenvwrapper python-virtualenv
            sudo pip install django-fab-deploy jinja2 fabric
            echo "export WORKON_HOME=~/.virtualenvs" >> ~/.bashrc
            echo "export DJANGO_SITES_ROOT=$HOME/projects" >> ~/.bashrc
